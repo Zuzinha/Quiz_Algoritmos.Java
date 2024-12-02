@@ -10,9 +10,12 @@ public class Questao {
     String opcaoE = "";
     String correta = "";
 
+    // Mantém o Scanner aberto ao longo da classe para evitar duplicações de leitura
+    private static Scanner ler = new Scanner(System.in);
+
     public boolean isCorreta(String resposta){
         if(resposta.equalsIgnoreCase(this.correta)){
-            System.out.println("Parabéns resposta Correta! - Letra: " + this.correta);
+            System.out.println("Parabéns, resposta Correta! - Letra: " + this.correta);
             System.out.println("");
             return true;
         } else {
@@ -24,14 +27,11 @@ public class Questao {
     }
 
     public String leiaResposta() {
-        Scanner ler = new Scanner(System.in);
         String resposta;
         do {
             System.out.println("Digite a resposta: ");
             resposta = ler.next();
         } while (!respostaValida(resposta));
-        // Feche o Scanner após seu uso
-        ler.close();
         return resposta;
     }
 
