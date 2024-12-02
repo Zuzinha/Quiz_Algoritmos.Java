@@ -207,13 +207,13 @@ public class Main {
         System.out.println("--------------------------------------------------------");
 
         Questao p11= new Questao();
-        p11.pergunta = "(11) Qual é a função do sistema de freios ABS?";
-        p11.opcaoA = "(A) - 9";
-        p11.opcaoB = "(B) - 6";
-        p11.opcaoC = "(C) - 3";
-        p11.opcaoD = "(D) - 7";
-        p11.opcaoE = "(E) - 2";
-        p11.correta = "b";
+        p11.pergunta = "(11) Qual é a função do sistema conhecido como 'ABS'?";
+        p11.opcaoA = "(A) - Evitar o travamento das rodas";
+        p11.opcaoB = "(B) - Melhorar o conforto do veículo";
+        p11.opcaoC = "(C) - Melhorar a suspensão do veículo";
+        p11.opcaoD = "(D) - Aumentar a potência do motor";
+        p11.opcaoE = "(E) - Melhorar eficiência geral do veículo";
+        p11.correta = "a";
 
         p11.escrevaQuestao();
         resposta = p11.leiaResposta();
@@ -227,13 +227,13 @@ public class Main {
         System.out.println("--------------------------------------------------------");
 
         Questao p12= new Questao();
-        p12.pergunta = "(12) Quantos aliens são disponiveis para o primeiro Ben 10 ?";
-        p12.opcaoA = "(A) - 9";
-        p12.opcaoB = "(B) - 6";
-        p12.opcaoC = "(C) - 3";
-        p12.opcaoD = "(D) - 10";
-        p12.opcaoE = "(E) - 2";
-        p12.correta = "d";
+        p12.pergunta = "(12) Qual é o tipo de transmissão mais comum em carros automáticos?";
+        p12.opcaoA = "(A) - Manual";
+        p12.opcaoB = "(B) - Automática";
+        p12.opcaoC = "(C) - CVT";
+        p12.opcaoD = "(D) - Semi-automática";
+        p12.opcaoE = "(E) - Power-Shift";
+        p12.correta = "c";
 
         p12.escrevaQuestao();
         resposta = p12.leiaResposta();
