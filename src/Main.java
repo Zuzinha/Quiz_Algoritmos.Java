@@ -147,13 +147,13 @@ public class Main {
         System.out.println("-----------------------------------------------------------------");
 
         Questao p8= new Questao();
-        p8.pergunta = "(8) Qual o nome original, em inglês, do filme A ERA DO GELO ?";
-        p8.opcaoA = "(A) - Ice island";
-        p8.opcaoB = "(B) - Snow age";
-        p8.opcaoC = "(C) - Snow island";
-        p8.opcaoD = "(D) - Ice age";
+        p8.pergunta = "(8) Qual é a função do alternador em um veículo?";
+        p8.opcaoA = "(A) - Aumentar eficiência dos freios";
+        p8.opcaoB = "(B) - Fornecer energia elétrica";
+        p8.opcaoC = "(C) - Melhorar consumo do veículo";
+        p8.opcaoD = "(D) - Alternar o torque das rodas";
         p8.opcaoE = "(E) - N.D.A";
-        p8.correta = "d";
+        p8.correta = "b";
 
         p8.escrevaQuestao();
         resposta = p8.leiaResposta();
@@ -167,13 +167,13 @@ public class Main {
         System.out.println("-------------------------------------------------------");
 
         Questao p9= new Questao();
-        p9.pergunta = "(9) Qual o nome do melhor amigo do Capitão America ?";
-        p9.opcaoA = "(A) - James Barnes";
-        p9.opcaoB = "(B) - Steve Rogers";
-        p9.opcaoC = "(C) - The winter soldier";
-        p9.opcaoD = "(D) - Tony Stark";
-        p9.opcaoE = "(E) - N.D.A";
-        p9.correta = "a";
+        p9.pergunta = "(9) Qual o nome do sistema responsável por freiar os veículos?";
+        p9.opcaoA = "(A) - Sistema de injeção";
+        p9.opcaoB = "(B) - Sistema de ignição";
+        p9.opcaoC = "(C) - Sistema de frenagem";
+        p9.opcaoD = "(D) - Sistema de parada";
+        p9.opcaoE = "(E) - Sistema elétrico";
+        p9.correta = "c";
 
         p9.escrevaQuestao();
         resposta = p9.leiaResposta();
@@ -187,13 +187,13 @@ public class Main {
         System.out.println("--------------------------------------------------------");
 
         Questao p10= new Questao();
-        p10.pergunta = "(10) Quem deu a aranha de ferro para o Peter ?";
-        p10.opcaoA = "(A) - Hulk";
-        p10.opcaoB = "(B) - Homem de ferro";
-        p10.opcaoC = "(C) - Thor";
-        p10.opcaoD = "(D) - Batman";
-        p10.opcaoE = "(E) - N.D.A";
-        p10.correta = "b";
+        p10.pergunta = "(10) Qual é a marca de carro conhecida pelo modelo 'Civic'?";
+        p10.opcaoA = "(A) - Ford";
+        p10.opcaoB = "(B) - Hyundai";
+        p10.opcaoC = "(C) - Chevrolet";
+        p10.opcaoD = "(D) - Volvo";
+        p10.opcaoE = "(E) - Honda";
+        p10.correta = "e";
 
         p10.escrevaQuestao();
         resposta = p10.leiaResposta();
@@ -207,7 +207,7 @@ public class Main {
         System.out.println("--------------------------------------------------------");
 
         Questao p11= new Questao();
-        p11.pergunta = "(11) Quantas joias do infinito existem ?";
+        p11.pergunta = "(11) Qual é a função do sistema de freios ABS?";
         p11.opcaoA = "(A) - 9";
         p11.opcaoB = "(B) - 6";
         p11.opcaoC = "(C) - 3";
