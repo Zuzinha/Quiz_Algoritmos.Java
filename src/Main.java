@@ -247,13 +247,13 @@ public class Main {
         System.out.println("--------------------------------------------------------");
 
         Questao p13= new Questao();
-        p13.pergunta = "(13) Quantos filmes Velozes e furiosos existem ate o momento ?";
-        p13.opcaoA = "(A) - 9";
-        p13.opcaoB = "(B) - 6";
-        p13.opcaoC = "(C) - 3";
-        p13.opcaoD = "(D) - 10";
-        p13.opcaoE = "(E) - 2";
-        p13.correta = "d";
+        p13.pergunta = "(13) Qual é a marca de carro conhecida pelo modelo 'Corolla'?";
+        p13.opcaoA = "(A) - Ford";
+        p13.opcaoB = "(B) - Honda";
+        p13.opcaoC = "(C) - Toyota";
+        p13.opcaoD = "(D) - Fiat";
+        p13.opcaoE = "(E) - Hyundai";
+        p13.correta = "c";
 
         p13.escrevaQuestao();
         resposta = p13.leiaResposta();
