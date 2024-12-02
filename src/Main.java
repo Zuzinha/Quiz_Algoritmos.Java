@@ -37,7 +37,6 @@ public class Main {
 
         p2.escrevaQuestao();
         resposta = p2.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p2.isCorreta(resposta)) {
@@ -57,7 +56,6 @@ public class Main {
 
         p3.escrevaQuestao();
         resposta = p3.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p3.isCorreta(resposta)) {
@@ -77,7 +75,6 @@ public class Main {
 
         p4.escrevaQuestao();
         resposta = p4.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p4.isCorreta(resposta)) {
@@ -97,7 +94,6 @@ public class Main {
 
         p5.escrevaQuestao();
         resposta = p5.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p5.isCorreta(resposta)) {
@@ -117,7 +113,6 @@ public class Main {
 
         p6.escrevaQuestao();
         resposta = p6.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p6.isCorreta(resposta)) {
@@ -137,7 +132,6 @@ public class Main {
 
         p7.escrevaQuestao();
         resposta = p7.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p7.isCorreta(resposta)) {
@@ -157,7 +151,6 @@ public class Main {
 
         p8.escrevaQuestao();
         resposta = p8.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p8.isCorreta(resposta)) {
@@ -177,7 +170,6 @@ public class Main {
 
         p9.escrevaQuestao();
         resposta = p9.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p9.isCorreta(resposta)) {
@@ -197,7 +189,6 @@ public class Main {
 
         p10.escrevaQuestao();
         resposta = p10.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p10.isCorreta(resposta)) {
@@ -217,7 +208,6 @@ public class Main {
 
         p11.escrevaQuestao();
         resposta = p11.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p11.isCorreta(resposta)) {
@@ -237,7 +227,6 @@ public class Main {
 
         p12.escrevaQuestao();
         resposta = p12.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p12.isCorreta(resposta)) {
@@ -257,7 +246,6 @@ public class Main {
 
         p13.escrevaQuestao();
         resposta = p13.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p13.isCorreta(resposta)) {
@@ -273,11 +261,10 @@ public class Main {
         p14.opcaoC = "(C) - Aumentar eficiência do motor";
         p14.opcaoD = "(D) - Resfriar o combustível";
         p14.opcaoE = "(E) - Resfriar a água do motor";
-        p14.correta = "d";
+        p14.correta = "e";
 
         p14.escrevaQuestao();
         resposta = p14.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p14.isCorreta(resposta)) {
@@ -297,7 +284,6 @@ public class Main {
 
         p15.escrevaQuestao();
         resposta = p15.leiaResposta();
-        System.out.println(resposta);
 
         //if e else para realizar a contabilização dos acertos e dos erros
         if(p15.isCorreta(resposta)) {
