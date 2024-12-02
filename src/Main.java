@@ -107,13 +107,13 @@ public class Main {
         System.out.println("-------------------------------------------------------------");
 
         Questao p6= new Questao();
-        p6.pergunta = "(6) No filme 'A era do gelo' qual o nome da filha de Ellie com Manfred?";
-        p6.opcaoA = "(A) - Framboesa";
-        p6.opcaoB = "(B) - Cajuzinho";
-        p6.opcaoC = "(C) - Amora";
-        p6.opcaoD = "(D) - Laranja";
-        p6.opcaoE = "(E) - N.D.A";
-        p6.correta = "c";
+        p6.pergunta = "(6) Qual é a função do óleo do motor?";
+        p6.opcaoA = "(A) - Lubrificar o motor";
+        p6.opcaoB = "(B) - Resfriar o motor";
+        p6.opcaoC = "(C) - Limpar o motor";
+        p6.opcaoD = "(D) - Aumentar a potência";
+        p6.opcaoE = "(E) - Reduzir consumo de combustível";
+        p6.correta = "a";
 
         p6.escrevaQuestao();
         resposta = p6.leiaResposta();
@@ -127,13 +127,13 @@ public class Main {
         System.out.println("----------------------------------------------------------------");
 
         Questao p7= new Questao();
-        p7.pergunta = "(7) Qual animal a mamute Ellie acredita ser?";
-        p7.opcaoA = "(A) - Gambá";
-        p7.opcaoB = "(B) - Gato";
-        p7.opcaoC = "(C) - Leão";
-        p7.opcaoD = "(D) - Galinha";
-        p7.opcaoE = "(E) - Rato";
-        p7.correta = "a";
+        p7.pergunta = "(7) Qual é a marca de carro conhecida pelo modelo 'Mustang'?";
+        p7.opcaoA = "(A) - Nissan";
+        p7.opcaoB = "(B) - Dodge";
+        p7.opcaoC = "(C) - Fiat";
+        p7.opcaoD = "(D) - Subaru";
+        p7.opcaoE = "(E) - Ford";
+        p7.correta = "e";
 
         p7.escrevaQuestao();
         resposta = p7.leiaResposta();
