@@ -287,13 +287,13 @@ public class Main {
         System.out.println("--------------------------------------------------------");
 
         Questao p15= new Questao();
-        p15.pergunta = "(15) Qual a ultima transformação adiquirida por Goku ?";
-        p15.opcaoA = "(A) - Super saiyajin";
-        p15.opcaoB = "(B) - Kaioken";
-        p15.opcaoC = "(C) - Istinto superior";
-        p15.opcaoD = "(D) - Ego superior";
-        p15.opcaoE = "(E) - N.D.A";
-        p15.correta = "c";
+        p15.pergunta = "(15) Qual é o tipo de pneu mais utilizado em carros de passeio?";
+        p15.opcaoA = "(A) - Pneu de corrida";
+        p15.opcaoB = "(B) - Pneu radial";
+        p15.opcaoC = "(C) - Pneu de neve";
+        p15.opcaoD = "(D) - Pneu diagonal";
+        p15.opcaoE = "(E) - Pneu de trator";
+        p15.correta = "b";
 
         p15.escrevaQuestao();
         resposta = p15.leiaResposta();
