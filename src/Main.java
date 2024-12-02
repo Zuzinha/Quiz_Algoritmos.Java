@@ -67,13 +67,13 @@ public class Main {
         System.out.println("-------------------------------------------------------------");
 
         Questao p4= new Questao();
-        p4.pergunta = "(4) De qual planta Thanos é?";
-        p4.opcaoA = "(A) - Titan";
-        p4.opcaoB = "(B) - Vormir";
-        p4.opcaoC = "(C) - Knowhere";
-        p4.opcaoD = "(D) - Terra";
-        p4.opcaoE = "(E) - Jupiter";
-        p4.correta = "a";
+        p4.pergunta = "(4) Qual é a velocidade maxíma permitida em rodovias?";
+        p4.opcaoA = "(A) - 100 km/h";
+        p4.opcaoB = "(B) - 150 km/h";
+        p4.opcaoC = "(C) - 120 km/h";
+        p4.opcaoD = "(D) - 160 km/h";
+        p4.opcaoE = "(E) - 180 km/h";
+        p4.correta = "c";
 
         p4.escrevaQuestao();
         resposta = p4.leiaResposta();
@@ -87,13 +87,13 @@ public class Main {
         System.out.println("------------------------------------------------------------");
 
         Questao p5= new Questao();
-        p5.pergunta = "(5) No filme 'A era do gelo' qual o nome do esquilo que vive atras da noz?";
-        p5.opcaoA = "(A) - Scrap";
-        p5.opcaoB = "(B) - Scrat";
-        p5.opcaoC = "(C) - Slash";
-        p5.opcaoD = "(D) - Screen";
+        p5.pergunta = "(5) Qual é o tipo de motor mais comum em motocicletas?";
+        p5.opcaoA = "(A) - À diesel";
+        p5.opcaoB = "(B) - À álcool";
+        p5.opcaoC = "(C) - Elétrico";
+        p5.opcaoD = "(D) - À gasolina";
         p5.opcaoE = "(E) - N.D.A";
-        p5.correta = "b";
+        p5.correta = "d";
 
         p5.escrevaQuestao();
         resposta = p5.leiaResposta();

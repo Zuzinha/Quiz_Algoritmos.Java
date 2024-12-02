@@ -14,7 +14,7 @@ public class Questao {
     private static Scanner ler = new Scanner(System.in);
 
     public boolean isCorreta(String resposta){
-        if(resposta.equalsIgnoreCase(this.correta)){
+        if (resposta.equalsIgnoreCase(this.correta)){
             System.out.println("Parabéns, resposta Correta! - Letra: " + this.correta);
             System.out.println("");
             return true;
