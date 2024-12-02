@@ -267,12 +267,12 @@ public class Main {
         System.out.println("--------------------------------------------------------");
 
         Questao p14= new Questao();
-        p14.pergunta = "(14) Quantos filmes Velozes e furiosos existem ate o momento ?";
-        p14.opcaoA = "(A) - 9";
-        p14.opcaoB = "(B) - 6";
-        p14.opcaoC = "(C) - 3";
-        p14.opcaoD = "(D) - 10";
-        p14.opcaoE = "(E) - 2";
+        p14.pergunta = "(14) Qual é a função do radiador em um veículo?";
+        p14.opcaoA = "(A) - Refrigerar a cabine do veículo";
+        p14.opcaoB = "(B) - Armazenar o óleo do motor";
+        p14.opcaoC = "(C) - Aumentar eficiência do motor";
+        p14.opcaoD = "(D) - Resfriar o combustível";
+        p14.opcaoE = "(E) - Resfriar a água do motor";
         p14.correta = "d";
 
         p14.escrevaQuestao();
